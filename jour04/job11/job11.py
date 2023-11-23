@@ -1,9 +1,4 @@
-
-def time_to_text(minute):
-    heure=minute//60
-    min=minute%60
-    hm=(f"{heure}heures et {min} minutes")
-    return hm    
+L = [7, 11, 42, 39, 2]
+L = [i + 1 for i in L]
+print(L)
     
-temps=time_to_text(70)
-print(temps)       
