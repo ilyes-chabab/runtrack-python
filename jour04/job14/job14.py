@@ -20,5 +20,5 @@ def my_long_word(longueur, phrase):
     return resultat
 
 
-resultat = my_long_word(3,"peur chemin vers côté obscur peur mène colère colère mène haine haine mène souffrance")
+resultat = my_long_word(3,"peur chemin vers côté obscur peur mène colère colère mène haine haine mène souffrance ")
 print(resultat)
