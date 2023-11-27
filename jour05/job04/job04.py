@@ -1,5 +1,4 @@
-n=1
-n= n + int(input("quel longeur voulez-vous ? : "))
+n = 1 + int(input("quel longeur voulez-vous ? : "))
 ligne="+"+n*"-"+"+"
 print(ligne)
 for _ in range(n):
