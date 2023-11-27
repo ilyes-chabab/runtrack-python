@@ -1,5 +1,5 @@
 height=int(input("quel est la taille de votre triangle ? : "))
-hauteur=-1
+hauteur=0
 for _ in range(height):
    if hauteur == height-2:
     break

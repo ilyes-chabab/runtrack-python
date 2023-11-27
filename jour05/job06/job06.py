@@ -1,8 +1,6 @@
-def function():
-    L=[1,2,3,4,5]
-    L[0],L[-1]=L[-1],L[0]
-    
-    return L
- 
-var=function()
-print(var)
+def function(nb_marche , marche_en_cm):
+    metre=((nb_marche*marche_en_cm)*5)*7
+    return metre
+
+print(f"Pour x marches de y cm, le gardien parcourt {function(10,10)}m par semaine.")
+
